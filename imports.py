@@ -14,3 +14,7 @@ from flask_sqlalchemy import SQLAlchemy
 from local_module import local_class
 from local_package import local_function
 
+
+
+#relative
+from . import class1
